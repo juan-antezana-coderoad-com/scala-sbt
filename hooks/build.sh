@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TAG="hseeberger/scala-sbt:${TAG}"
+TAG="veea/scala-sbt:${TAG}"
 
 set -x
 docker build $DOCKER_CONTEXT \
